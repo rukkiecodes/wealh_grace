@@ -1,0 +1,178 @@
+.b1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .b1 {
+    width: 120px;
+  }
+}
+
+.b2 {
+  position: absolute;
+  top: 35%;
+  right: 0;
+  width: 200px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .b2 {
+    width: 120px;
+  }
+}
+
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  position: absolute;
+  width: 300px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .b3,
+  .b4,
+  .b5,
+  .b6,
+  .b7,
+  .b8,
+  .b9 {
+    top: 80%;
+    width: 120px;
+  }
+}
+
+.b3 {
+  top: 80%;
+  left: 0;
+}
+
+.b4 {
+  top: 170%;
+  right: 0;
+}
+
+.b5 {
+  top: 270%;
+  left: 0;
+}
+
+.b6 {
+  top: 355%;
+  right: 0;
+}
+
+.b7 {
+  top: 425%;
+  left: 0;
+}
+
+.b8 {
+  top: 515%;
+  right: 0;
+}
+
+.b9 {
+  top: 595%;
+  left: 0;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70vh;
+}
+
+.head h5 {
+  text-transform: uppercase;
+}
+
+.head h1 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #838A43;
+}
+
+.section_one,
+.section_two,
+.section_three,
+.section_four,
+.section_five,
+.section_six,
+.section_seven {
+  margin-bottom: 10em;
+}
+
+.section_one img,
+.section_two img,
+.section_three img,
+.section_four img,
+.section_five img,
+.section_six img,
+.section_seven img {
+  width: 350px;
+  max-width: 90%;
+}
+
+.title_name {
+  font-size: 1.2em;
+  color: #838A43;
+  font-weight: 600;
+}
+
+.sub_head {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.section_text {
+  letter-spacing: 1px;
+}
+
+.section_link {
+  color: #838A43;
+  text-decoration: underline;
+}
+
+.header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.header h1 {
+  color: #838A43;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
